@@ -1,0 +1,48 @@
+#navig {
+  background-image: url('../images/users_bg.jpg');
+  background-size: cover; /* Cover full width, maintain aspect ratio */
+  background-repeat: no-repeat; 
+  overflow: hidden;
+  width: 100%;
+  height: 100%; /* Set the desired height */
+  background-position: center top; /* Move the background image to the center and top */
+}
+
+
+  
+  #navig ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #navig li {
+    float: left;
+  margin-left: 5px;
+  }
+#navig h3{
+  color: white;
+}
+  #navig li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    background-color: rgba(213, 141, 215, 0.618);
+    border-radius: 8%;
+  }
+  
+  #navig li a:hover {
+    /* background-color: #111; */
+
+    background-color: black;
+  }
+  
+  .custom-link a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color to white */
+}

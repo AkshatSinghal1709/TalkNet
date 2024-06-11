@@ -1,0 +1,30 @@
+<% if (locals.user) { %>
+	<div id="openchat">
+		<button id="max">Chat
+			<img src="https://icones.pro/wp-content/uploads/2021/05/icone-de-chat-violet.png" alt="Chat">
+		</button>
+	</div>
+	<div id="user-chat-box" style="display: none;">
+		<div id="minimize">
+			<button id="min">
+                <img src="https://static.vecteezy.com/system/resources/previews/021/815/660/non_2x/cross-close-icon-free-png.png" alt="Minimize">
+            </button>
+		</div>
+		<ul id="chat-messages-list">
+			<li class="other-message">
+				<span>Other Message</span>
+			</li>
+			<li class="self-message">
+				<span>
+					Self Message
+				</span>
+			</li>
+		</ul>
+        
+        <div id="chat-message-input-container">
+			<input id="chat-message-input" placeholder="Type message here">
+			<button id="send-message">Send</button>
+		</div>
+	</div>
+	<script src="/js/chatminimize.js"></script>
+<% } %>
